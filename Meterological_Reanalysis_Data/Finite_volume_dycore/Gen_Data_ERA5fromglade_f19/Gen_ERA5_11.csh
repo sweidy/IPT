@@ -1,11 +1,11 @@
 #! /bin/csh -f
 
-#PBS -N Gen_ERA5_fv19___MONTH__
+#PBS -N Gen_ERA5_fv19_11
 #PBS -A UHAR0026
 #PBS -j oe
 #PBS -k eod
 #PBS -q main
-#PBS -l walltime=06:00:00
+#PBS -l walltime=01:00:00
 #PBS -l select=1:ncpus=2:mem=20GB
 #PBS -l job_priority=economy
 #PBS -M sweidman@g.harvard.edu
@@ -32,9 +32,9 @@
 
 # Set a REFERENCE (Starting) Date and the numbe rof days to process
 #-------------------------------------------------------------------
-set RUNNUM   = '__MONTH__' 
-set REF_DATE = '1989__MONTH____STARTDAY__'
-set NUM_DAYS = __LENRUN__
+set RUNNUM   = '11' 
+set REF_DATE = '20111111'
+set NUM_DAYS = 1
 
 # Set INPUT/OUTPUT/TMP directories, 
 #-----------------------------------

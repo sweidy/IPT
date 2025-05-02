@@ -3,12 +3,12 @@
 !------------------                   
 &makeic_nl
  MYTMPDIR="./TMP/01/"
- MYOUTDIR="/n/home04/sweidman/holylfs04/ERA5/ERA5_f19/"
- INPUTDIR="/n/home04/sweidman/holylfs04/for_globus/"
+ MYOUTDIR="/glade/derecho/scratch/sweidman/era_regridded/"
+ INPUTDIR="/glade/derecho/scratch/sweidman/era_holding/"
                                     
- TMP_clean  ="False"
+ TMP_clean  ="True"
                                     
- REF_DATE              ="19800101"
+ REF_DATE              ="19900117"
  CASE                  ="ERA5_fv19_"
  DYCORE                ="fv"
  PRECISION             ="float"
@@ -19,15 +19,15 @@
  REGRID_ALL            ="False"
  ADJUST_STATE_FROM_TOPO="True"
                                     
- fname_phis_output     ="/n/holystore01/INTERNAL_REPOS/CLIMATE_MODELS/cesm_2_1/inputdata/atm/cam/topo/USGS-gtopo30_1.9x2.5_remap_c050602.nc"
+ fname_phis_output     ="/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/cam/topo/USGS-gtopo30_1.9x2.5_remap_c050602.nc"
  ftype_phis_output     ="FV_TOPOGRAPHY"
- fname_grid_info       ="/n/holystore01/INTERNAL_REPOS/CLIMATE_MODELS/cesm_2_1/inputdata/atm/cam/inic/fv/cami_0000-01-01_1.9x2.5_L26_c070408.nc"
+ fname_grid_info       ="/glade/campaign/cesm/cesmdata/cseg/inputdata/atm/cam/inic/fv/cami_0000-01-01_1.9x2.5_L26_c070408.nc"
                                     
  fields       ="U,US,V,VS,T,Q,PS"
  source_files ="0,0,0,0,0,0,0"
  fname_phis_in=0
                                     
- fname0="ERA5_e5.oper.ml.v3.uvtqps.1980010412.nc"
+ fname0="ERA5_e5.oper.ml.v3.uvtqps.1990011921.nc"
  fname1="none"
  fname2="none"
  fname3="none"
@@ -41,7 +41,7 @@
  ftype4="none"
  ftype5="none"
                                     
- fdate0="1980010443200"
+ fdate0="1990011975600"
  fdate1="-1"
  fdate2="-1"
  fdate3="-1"

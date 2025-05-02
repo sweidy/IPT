@@ -257,7 +257,7 @@ function extract_analyses_info(data:file, ftype:string)
 
 local k, native_dimname, processed, att_array, file_dim_sizes, file_dim_names, \
       dim_lat, dim_lon, del_lon, gau_info, date_int, datei, houri, hourf,      \
-      dims, nlev, date_read, datef, data2
+      dims, nlev, date_read, datef
 
 begin
 

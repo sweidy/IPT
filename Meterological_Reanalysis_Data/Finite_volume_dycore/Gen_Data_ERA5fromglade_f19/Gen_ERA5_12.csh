@@ -1,6 +1,6 @@
 #! /bin/csh -f
 
-#PBS -N Gen_ERA5_fv19___MONTH__
+#PBS -N Gen_ERA5_fv19_12
 #PBS -A UHAR0026
 #PBS -j oe
 #PBS -k eod
@@ -32,9 +32,9 @@
 
 # Set a REFERENCE (Starting) Date and the numbe rof days to process
 #-------------------------------------------------------------------
-set RUNNUM   = '__MONTH__' 
-set REF_DATE = '1989__MONTH____STARTDAY__'
-set NUM_DAYS = __LENRUN__
+set RUNNUM   = '12' 
+set REF_DATE = '19891201'
+set NUM_DAYS = 31
 
 # Set INPUT/OUTPUT/TMP directories, 
 #-----------------------------------

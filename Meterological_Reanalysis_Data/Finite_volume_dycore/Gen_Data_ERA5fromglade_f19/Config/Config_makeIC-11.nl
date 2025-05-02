@@ -2,13 +2,13 @@
 ! Generated Namelist for maekIC_se.ncl 
 !------------------                   
 &makeic_nl
- MYTMPDIR="./TMP/04/"
+ MYTMPDIR="./TMP/11/"
  MYOUTDIR="/glade/derecho/scratch/sweidman/era_regridded/"
  INPUTDIR="/glade/derecho/scratch/sweidman/era_holding/"
                                     
  TMP_clean  ="True"
                                     
- REF_DATE              ="19890417"
+ REF_DATE              ="20111111"
  CASE                  ="ERA5_fv19_"
  DYCORE                ="fv"
  PRECISION             ="float"
@@ -27,7 +27,7 @@
  source_files ="0,0,0,0,0,0,0"
  fname_phis_in=0
                                     
- fname0="ERA5_e5.oper.ml.v3.uvtqps.1989041821.nc"
+ fname0="ERA5_e5.oper.ml.v3.uvtqps.2011111121.nc"
  fname1="none"
  fname2="none"
  fname3="none"
@@ -41,7 +41,7 @@
  ftype4="none"
  ftype5="none"
                                     
- fdate0="1989041875600"
+ fdate0="2011111175600"
  fdate1="-1"
  fdate2="-1"
  fdate3="-1"
